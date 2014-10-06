@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/fragment_main">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center">
+
+        <TextView
+            android:id="@+id/duck_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="150dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/description"/>
+
+        <TextView
+            android:id="@+id/duck_facing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facing"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/face_left_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/face_left_icon"
+                android:layout_marginRight="15dp"
+                android:background="#FFC000"/>
+
+            <ImageButton
+                android:id="@+id/face_right_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/face_right_icon"
+                android:layout_marginLeft="15dp"
+                android:background="#FFC000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
