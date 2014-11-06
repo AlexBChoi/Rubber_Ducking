@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Rubber Ducking</string>
-    <string name="description">Stuck with a programming problem? Rubber duck debugging is a method of debugging code. Place this duck near your monitor and describe your problems in detail.</string>
-    <string name="facing">Face Direction</string>
-
-</resources>
