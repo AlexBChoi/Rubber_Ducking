@@ -12,6 +12,10 @@ public class MainFragment extends Fragment {
     private ImageButton mFaceLeftButton;
     private ImageButton mFaceRightButton;
 
+    public MainFragment() {
+        //Required empty public constructor
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

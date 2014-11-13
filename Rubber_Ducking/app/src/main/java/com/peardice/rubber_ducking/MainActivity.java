@@ -14,10 +14,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        FragmentManager fm = getFragmentManager(); //using suppport library otherwise just getFragmentManager()
+        FragmentManager fm = getFragmentManager();
         Fragment fragment = fm.findFragmentById(R.id.fragmentContainer);
 
-        //Displays MainFragment content
+        //Displays MainFragment content: create new fragment transaction, include one add operation in it, and then commit it
         if(fragment == null) {
             fragment = new MainFragment();
             fm.beginTransaction()
